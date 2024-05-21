@@ -17,6 +17,8 @@ public class SimpleTestWithPOM {
 	WebElement password;
 	@FindBy(id="submitButton")
 	WebElement loginbtn;
+	@FindBy(linkText = "products")
+	WebElement products;
 	
 	@Test
 	public void simpleTest() {
